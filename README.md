@@ -1,4 +1,4 @@
-### personal portfolio
+-### personal portfolio
  A webpage to showcase my skillset
 
 ## setup /## usage
@@ -10,7 +10,7 @@
 
 * npm is used to published, discover, install, and develop node programs.
 
-* lite-server is a Lightweight development only node server that serves a web app, opens it in the browser, refreshes when html, injects CSS changes using sockets, and has a fallback page when a route is not found.
+* lite-server is a Lightweight development only node server a web app, opens it in the browser, refreshes when html, injects CSS changes using sockets, and has a fallback page when a route is not found.
 
 ## How to Install Node.js and npm on Windows
 
@@ -56,8 +56,7 @@ lite server is a lightweight development web server with support for Single Page
 
 2. Does NPM need node?
 
- NPM help to install the various modules you need for your web development and not just given you a whole bunch of features you might never need.
-
+ NPM help to install the various modules you need for your web development
 ## CONTACT
 
 Name : Premnath sarathi .R
