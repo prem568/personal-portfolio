@@ -1,29 +1,27 @@
+
 body{
-    line-height: 30px;
-        margin:15px ;
-       background-color: lightcoral;
+    line-height: 2;
+    background-color: #cccccc;
 }
 header{
    border: black;
-    font-size: 20px; 
+   font-size: 20px; 
 }
-
-table {
-    
+.info-datas{
+    text-align: center;
+}
+table {   
     transform-origin: 55px;
     text-align: center;
-    background-color: rgb(10, 250, 230);
-    margin: 20px;
+    margin: -15px;
     border-color: black;
+    display: inline;
 }
 .container{
-    width: 500px;  
+    width: 900px;  
     margin: auto;
-    background-color: orange;
-    padding: 0px 20px;
-    padding-bottom: 10px;
+    padding: 0px 20px;  
 }
-
 header h1{
     font-size: 55px;  
     font-family: sans-serif;
@@ -35,66 +33,41 @@ header .connect{
     padding: 18px;
     margin-bottom: auto;
 }
-header .connect a:link{
-
-}
-header .connect a:hover{
-
-}
-header .connect a:active{
-
-}
-header .connect a:visited{
-    
-}
 header .container{
     border: yellow;
     margin: 25px;
-
 }
 .information{
-    border: solid 2px;
-    margin: 30px;
-
+    margin: 1px;
 }
 .information h3{
-    background-color: violet;
+    background-color: #ee82ee80;
     padding: 15px;
     font-size: 30px;
-
 }
-
-
 .information p,
 .information table{
-padding: 25px 15px;
+padding: 10px 10px;
 }
 .information .info-data{
-    padding: 25px 15px;
+    padding: 5px 10px;
     font-size: 20px;
+    margin-left: 7px;
 }
-.table-1{
-
-}
-.table-1 tr{
-
+.style{
+    text-align: center;
 }
 .table-1 td{
-    padding: 10px;
-    margin: 15px;
-    background-color: sienna;
+    padding: 5px; 
+    background-color: #a0522d7d;
 }
 .table-1 th{
-    background: teal;
-    padding: 10px;
-    border: goldenrod;
+    background:#70bdbdba;
+    padding: 5px;
 }
 .ordered-list-1{
     list-style: lower-alpha;
     list-style-position: inside;
-}
-.font-styl-1{
-
 }
 .form-style-1 .fixed-width{
     min-width: 150px;
@@ -113,7 +86,7 @@ padding: 25px 15px;
 .form-style-1 select,
 .form-style-1 textarea{
     border: solid 2px #ddd;
-    padding:8px;
+    padding:8px 30px;
     min-width: 200px;
 }
 textarea{
@@ -123,30 +96,22 @@ textarea{
     border-color:crimson;
     outline: none;
     box-shadow: blueviolet 0 0 7px;
-
 }
 .primary-button{
     background-color: cornflowerblue;
     border: none #ffffff;
-    padding: 10px ;
-    color:green ;
+    padding: 10px 30px;
+    color: #ffffff;
     cursor: pointer;
 }
-
-
-
-<p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-            
-Valid CSS!
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
+.text{
+    margin: 10px 40px;
+}
+.error-message{
+    color: crimson;
+    margin-left: 180px;
+    padding: 10px 0 0 0;
+    font-size: 12px;
+    display: none;
+   
+}
