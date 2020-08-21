@@ -27,7 +27,7 @@
             <div class="information">
                 <h3> ACADEMIC PROFILE:-</h3>
                 <div class="info-datas">
-                    <table border="1" width="100%" cellpadding="10"cellspacing="0" class="table-1">
+                    <table border="1" width="100%" cellpadding="10" cellspacing="0" class="table-1">
                         <tbody class="tbody">
                             <tr>
                                 <th>S.no</th>
@@ -68,8 +68,8 @@
                     <h3>TECHNICAL SPECIFICATIONS & SKILL:-</h3>
                     <div class="info-data">
                         <ol class="ordered-list-1">
-                            *  Machine operating:grinding,drilling,arc welding,mould loading,unloading<br>
-                            *  Computer operator<br>
+                            *  Machine operating:grinding,drilling,arc welding,mould loading,unloading</ol>
+                            *  Computer operator</ol>
                         </ol>
                     </div>
                     <div class="information">
@@ -106,24 +106,20 @@
                                 <Form action="#" class="form-style-1" id="enquiry-form">
                                     <div class="input-section">
                                         <label class="fixed-width" for="full-name">Name</label>
-                                        <input type="text" name="fullname" id="full-name">
-                                       
+                                        <input type="text" name="fullname" id="full-name">                                   
                                     </div>
                                     <div class="input-section">
                                         <label class="fixed-width" for="email-id">Email ID</label>
-                                        <input type="email"  name="fullname" id="email-id">
-                                      
+                                        <input type="email"  name="fullname" id="email-id">                                     
                                     </div>
                                     <div class="input-section">
                                         <label class="fixed-width" for="mobile-id"> Mobile number</label>
-                                        <input type="tel" name="mobile" id="mobile-id">
-                                      
+                                        <input type="tel" name="mobile" id="mobile-id">                  
                                     </div>
                                     <div class="input-section">
                                         <label class="fixed-width" for="">Gender</label>
                                         <input type="radio" name="gender" id="gender-male"> <label for="gender-male">Male</label> 
                                         <input type="radio" name="gender" id="gender-female"> <label for="gender-female">Female</label>
-                                       
                                     </div>
                                     <div class="input-section">
                                         <label  class="fixed-width" for="language">Language known</label>
@@ -144,12 +140,10 @@
                                               <option value="PAK">Pakistan</option>
                                               <option value="CHI">China</option>
                                           </select>
-                                          
-                                        
                                       </div>
                                       <div class="input-section">
-                                            <label  class="fixed-width" for="">Message</label> 
-                                            <textarea name="Message" id="full-name"></textarea>
+                                          <label class="fixed-width" for="message">Message</label> 
+                                          <textarea name="Message" id="full-name"></textarea>
                                       </div>
                                       <div class="action-section">
                                         <input type="submit" value="send" class="primary-button">
@@ -174,15 +168,11 @@
      function addErrorMessage(targetElement){
              //check if error message is already avaiable
              var errorElement = targetElement.parentNode.getElementByclassname('error-message')[0];
-
              if (errorElement != undefined){
              return false
-             }
-             
-             var errorMessageElement = document.createElement('div');
-            
-             errorMessageElement.inputHTML = 'This field is mandatory';
-             
+             }            
+             var errorMessageElement = document.createElement('div');           
+             errorMessageElement.inputHTML = 'This field is mandatory';            
              errorMessageElement.classList.add("error-message");
              targetElement.parentNode.appendChild(errorMessageElement);
              return  errorMessageElement;
@@ -254,15 +244,6 @@
               removeErrorMessage(countryElement);
                   }   
              }
-             function  sum(x,y){
-             var z = x+y;
-             return z;
-             }
-             var a = 10;
-             var b = 20;
-
-             var c = sum(a,b);
-             console.log(c);
          var buttonElement = document.getElementById('form-button');
          buttonElement.addEventListener ('click',validateForm);
   </script>
